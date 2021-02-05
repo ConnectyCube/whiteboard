@@ -34,9 +34,9 @@ body {
 
 @media (max-device-width: 1024px) {
     .btn-group button {
-        font-size: 3em;
-        height: 135px;
-        width: 150px;
+        font-size: 2.5em;
+        height: 75px;
+        width: 95px;
     }
 
     .minGroup {
@@ -96,8 +96,11 @@ button {
     outline-width: 0;
 }
 
-.btn-group {
+.btn-group > button {
     background-color: #808080ab;
+}
+
+.btn-group {
     margin-left: 5px;
     margin-bottom: 5px;
     float: left;
